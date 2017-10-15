@@ -25,6 +25,9 @@ class Home extends Component {
     return (<div className={s.root}>
       <Layout>
         <div className={s.content}>
+          <h2 style={{
+            textAlign: 'center'
+          }}>IP Address: {ip}</h2>
           <img src={this.getCatFromIp(ip)} />
         </div>
       </Layout>
