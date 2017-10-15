@@ -11,7 +11,8 @@ class Header extends Component {
 
   render() {
     return (<div className={s.root}>
-      <h1>DockerMeow</h1>
+      <h1>Docker Meow</h1>
+      A purrrfect way to test Docker
     </div>);
   }
 }

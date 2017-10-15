@@ -1,5 +1,5 @@
 #############################################
-# Image: jamrizzi/dockermeow
+# Image: jamrizzi/docker-meow
 # Base: alpine
 #############################################
 

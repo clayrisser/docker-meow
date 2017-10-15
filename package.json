@@ -1,7 +1,7 @@
 {
-  "name": "reaction",
-  "version": "0.0.0",
-  "description": "An Isomorphic ReactJS framework with SASS and Redux integration",
+  "name": "docker-meow",
+  "version": "0.0.1",
+  "description": "A purrrfect way to test Docker",
   "main": "./tools/start.js",
   "repository": "https://github.com/jamrizzi/reaction",
   "author": "Jam Risser <jam@jamrizzi.com>",
@@ -66,8 +66,8 @@
     "clean": "node ./node_modules/babel-cli/bin/babel-node ./tools/run clean",
     "copy": "node ./node_modules/babel-cli/bin/babel-node ./tools/run copy",
     "start": "node ./node_modules/babel-cli/bin/babel-node ./tools/run start",
-    "package": "docker build -t jamrizzi/dockermeow:latest -f ./Dockerfile .",
-    "push": "docker push jamrizzi/dockermeow:latest"
+    "package": "docker build -t jamrizzi/docker-meow:latest -f ./Dockerfile .",
+    "push": "docker push jamrizzi/docker-meow:latest"
   },
   "babel": {
     "presets": [
