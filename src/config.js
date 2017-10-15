@@ -1,5 +1,5 @@
 const config = {
-  title: 'DockerMeow',
+  title: 'Docker Meow',
   environment: {
     port: 8888
   },
