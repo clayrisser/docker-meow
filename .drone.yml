@@ -1,0 +1,36 @@
+pipeline:
+  restore_cache:
+    image: busybox:latest
+    commands:
+      - sleep 5
+
+  test:
+    image: busybox:latest
+    commands:
+      - sleep 5
+
+  build:
+    image: busybox:latest
+    commands:
+      - sleep 5
+
+  publish:
+    image: busybox:latest
+    commands:
+      - sleep 5
+
+  deploy:
+    image: busybox:latest
+    commands:
+      - sleep 5
+
+  rebuild_cache:
+    image: busybox:latest
+    commands:
+      - sleep 5
+
+services:
+  db:
+    image: busybox:latest
+    commands:
+      - tail -f /dev/null
