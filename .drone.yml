@@ -32,6 +32,6 @@ pipeline:
 services:
   db:
     image: busybox:latest
-    detatch: true
+    detach: true
     commands:
       - tail -f /dev/null
